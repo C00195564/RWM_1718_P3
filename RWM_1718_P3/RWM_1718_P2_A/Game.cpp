@@ -12,6 +12,7 @@ Game::Game(): loader("GeneralGameData.json")
 {
 	pause = false;
 	quit = false;
+	
 }
 
 
