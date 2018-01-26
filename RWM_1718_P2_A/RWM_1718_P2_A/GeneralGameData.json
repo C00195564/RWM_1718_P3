@@ -1,0 +1,167 @@
+{
+  "general_game_data": {
+    "global_settings": {
+      "font_file": "",
+      "sfx": {
+
+      }
+    },
+    "main_menu_items": {
+      "menu_items": [
+        {
+          "size": 40,
+          "text": "Play",
+          "x": 700,
+          "y": 300,
+          "Width": 100,
+          "Height": 50
+        }
+      ]
+    },
+    "level1": {
+      "max_game_objects": 1,
+      "player_x": 0,
+      "player_y": 50,
+      "GameObjects": [
+        {
+          "x": 0,
+          "y": 550,
+          "Width": 1000,
+          "Height": 50,
+          "Type": "Ground"
+        }
+      ]
+    },
+    "level1Box2D": {
+      "max_b2shape": 2,
+      "b2List": [
+        {
+          "x": 100,
+          "y": 100,
+          "width": 100,
+          "height": 100,
+          "angle": 0,
+          "density": 10,
+          "friction": 0.2,
+          "restitution": 0.2,
+          "type": "dynamic",
+          "awake": true,
+          "shape": "box"
+        },
+        {
+          "x": 300,
+          "y": 100,
+          "width": 100,
+          "height": 100,
+          "angle": 0,
+          "density": 10,
+          "friction": 0.2,
+          "restitution": 0.2,
+          "type": "dynamic",
+          "awake": true,
+          "shape": "circle",
+          "radius": 50
+        }
+      ]
+    },
+    "level2": {
+      "max_game_objects": 1,
+      "player_x": 0,
+      "player_y": 50,
+      "GameObjects": [
+        {
+          "x": 0,
+          "y": 550,
+          "Width": 1000,
+          "Height": 50,
+          "Type": "Ground"
+        }
+      ]
+    },
+    "level2Box2D": {
+      "max_b2shape": 2,
+      "b2List": [
+        {
+          "x": 100,
+          "y": 100,
+          "width": 100,
+          "height": 100,
+          "angle": 180,
+          "density": 10,
+          "friction": 0.2,
+          "restitution": 0.2,
+          "type": "dynamic",
+          "awake": true,
+          "shape": "box"
+        },
+        {
+          "x": 300,
+          "y": 100,
+          "width": 100,
+          "height": 100,
+          "angle": 0,
+          "density": 10,
+          "friction": 0.2,
+          "restitution": 0.2,
+          "type": "dynamic",
+          "awake": true,
+          "shape": "circle",
+          "radius": 50
+        }
+      ]
+    },
+    "level3": {
+      "max_game_objects": 2,
+      "player_x": 0,
+      "player_y": 50,
+      "GameObjects": [
+        {
+          "x": 0,
+          "y": 550,
+          "Width": 1000,
+          "Height": 50,
+          "Type": "Ground"
+        },
+        {
+          "x": 100,
+          "y": 300,
+          "Width": 20,
+          "Height": 50,
+          "Type": "Platform"
+        }
+      ]
+    },
+    "level3Box2D": {
+      "max_b2shape": 2,
+      "b2List": [
+        {
+          "x": 100,
+          "y": 100,
+          "width": 100,
+          "height": 100,
+          "density": 10,
+          "angle": 0,
+          "friction": 0.2,
+          "restitution": 0.2,
+          "type": "dynamic",
+          "awake": true,
+          "shape": "box"
+        },
+        {
+          "x": 300,
+          "y": 100,
+          "width": 100,
+          "height": 100,
+          "angle": 0,
+          "density": 10,
+          "friction": 0.2,
+          "restitution": 0.2,
+          "type": "dynamic",
+          "awake": true,
+          "shape": "circle",
+          "radius": 50
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GtaTestDurations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Executable>C:\Users\Daz\Desktop\RWM_1718_P2_A-master\RWM_1718_P2_A\x64\Debug\Sample-Test1.exe</Executable>
+  <TestDurations>
+    <TestDuration Test="TestCaseName.TestName" Duration="1" />
+    <TestDuration Test="JSONTEST.JSONRUNS" Duration="3" />
+    <TestDuration Test="JSONTEST.Control" Duration="1" />
+  </TestDurations>
+</GtaTestDurations>
